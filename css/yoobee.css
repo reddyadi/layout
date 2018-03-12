@@ -1,0 +1,88 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+#navContent{
+  width:100vw;
+  margin:auto;
+  padding:35px;
+  background:#C6C6C6;
+}
+
+#navContent::after{
+  content:'';
+  display:table;
+  clear:both;
+}
+
+.navSection{
+  width: 33%;
+  float:left;
+}
+
+.left{
+  float: left;
+}
+
+.right{
+  float: right;
+  text-align: right;
+}
+
+.text-center{
+  text-align: center;
+}
+
+#messageBox{
+  width:100vw;
+  margin:auto;
+}
+
+#messageBox1{
+  width:100vw;
+  margin:auto;
+  background:#E5E5E5;
+}
+
+#messageBox2{
+  width:100vw;
+  margin:auto;
+}
+
+#messageBox3{
+  width:100vw;
+  margin:auto;
+  background:#E5E5E5;
+}
+
+#messageBox4{
+  width:100vw;
+  margin:auto;
+}
+
+.messagePic{
+  width: 25%;
+  float:left;
+  padding:10px;
+}
+
+.messageView{
+  width:75%;
+  float:left;
+  padding:15px;
+}
+
+.img-circle{
+  border-radius: 50%;
+}
+
+.clear{
+  clear:both;
+}
+
+#sectionBord{
+  padding:5px;
+  /*background:#E5E5E5;*/
+}

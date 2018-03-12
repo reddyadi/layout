@@ -1,0 +1,55 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+ #tpImg{
+   text-align: center;
+ }
+ #navigation{
+   text-align: center;
+ }
+
+ #navigation ul{
+   table-layout: none;
+ }
+
+ #navigation ul li{
+   display: inline-block;
+   padding:10px;
+   margin:10px:
+ }
+
+ #mainImg{
+   text-align: center;
+   background-image: url("http://via.placeholder.com/1200x500");
+   background-position: center;
+   width:100vw;
+   height:500px;
+   background-repeat: no-repeat;
+}
+
+#content{
+  width:100vw;
+  max-width:100vh;
+  margin: auto;
+}
+
+.row{
+  margin-top:10px;
+}
+
+.contentBlock{
+  width:50%;
+  float:left;
+  padding:10px;
+}
+
+#foot{
+  text-align:center;
+}
+
+.clear{
+  clear:both;
+}

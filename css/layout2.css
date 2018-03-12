@@ -1,0 +1,45 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+#nav{
+  text-align: center;
+  padding:5px;
+  margin:5px;
+  font-size: 20px;
+}
+
+#nav ul{
+  list-style: none;
+}
+
+#nav ul li{
+  display:inline-block;
+}
+
+#content{
+  width:1000px;
+  max-width:1000px;
+  margin: auto;
+}
+
+.contentBlock{
+  text-align:center;
+  padding:20px;
+}
+
+.contentBlock1{
+  text-align:center;
+  margin:auto;
+}
+
+#text{
+  text-align: center;
+}
+
+#footer{
+  text-align: right;
+  padding:20px;
+}
