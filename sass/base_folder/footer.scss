@@ -1,0 +1,19 @@
+footer{
+    background-color: darken($headColor, 10%);
+    nav{
+      float: right;
+        ul{
+          list-style: none;
+          text-align: right;
+            li{
+              @include footer;
+            }
+        }
+    }
+}
+
+footer:after{
+  content: '';
+  display: table;
+  clear: both;
+}

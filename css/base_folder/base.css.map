@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,CAAC;EACC,MAAM,EAAC,CAAC;EACR,OAAO,EAAC,CAAC;EACT,UAAU,EAAE,UAAU",
+"sources": ["../../sass/base_folder/base.scss"],
+"names": [],
+"file": "base.css"
+}

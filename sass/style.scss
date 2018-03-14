@@ -1,0 +1,43 @@
+@import "variable.scss";
+@import "base_folder/base";
+@import "base_folder/header";
+@import "base_folder/footer";
+
+#boxContent{
+  @include box;
+}
+
+.box1{
+  @include boxSize;
+  background-color: $box1color;
+}
+
+.box2{
+  @include boxSize;
+  background-color: $box2color;
+}
+
+.box3{
+  @include boxSize;
+  background-color: $box3color;
+}
+
+.footerNav{
+  float: left;
+
+}
+
+$boxCount: 9;
+@for $i from 4 through $boxCount{
+    #box#{$i}{
+      @include boxSize;
+    }
+}
+
+/*section{
+    div{
+        img{
+            text-align: center;
+        }
+    }
+}*/

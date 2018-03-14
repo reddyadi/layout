@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,MAAM;EACF,gBAAgB,EAAE,OAAO;EAErB,aAAE;IACA,UAAU,EAAE,MAAM;IAClB,UAAU,EAAE,IAAI;IACd,gBAAE;MACA,OAAO,EAAE,YAAY;MACrB,OAAO,EAAE,GAAG",
+"sources": ["../../sass/base_folder/header.scss"],
+"names": [],
+"file": "header.css"
+}

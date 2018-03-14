@@ -1,0 +1,14 @@
+header{
+    background-color: $headColor;
+    padding: 15px;
+      nav{
+        ul{
+          text-align: center;
+          list-style: none;
+            li{
+              @include header;
+            }
+        }
+      }
+
+}

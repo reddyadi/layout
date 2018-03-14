@@ -1,0 +1,32 @@
+$headColor: #44CDEC;
+@mixin boxSize{
+  border: 1px solid black;
+  padding: 10px;
+  flex-basis: 30%;
+  text-align: center;
+}
+
+@mixin header {
+  display: inline-block;
+  padding: 1em;
+  color: darken($headColor, 20%);
+  font-size: 20px;
+}
+
+@mixin footer{
+  display: inline-block;
+  padding: 1em;
+  color: lighten($headColor, 20%);
+}
+
+@mixin box{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+$box1color: #E2EC44;
+$box2color: #7CEC44;
+$box3color: #EC446A;
+
+$Color: #ECB644;
